@@ -1,1 +1,16 @@
+.button {
+  border: 2px black;
+  padding: 10px 10px;
+  color: black;
+}
 
+.button1 {
+  border-color: green;
+  color: blue;
+}
+
+.button1:hover {
+  background-color: blue;
+  color: green;
+  color: white;
+}
