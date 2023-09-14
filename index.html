@@ -1,36 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
+<head>
 <style>
-  .button {
-    border: 2px, black;
-    padding: 10px 10px;
-    margin: 10px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-    border-radius: 30px;
-  }
-
-  .button1 {
-    border-color: blue;
-    color: black;
-  }
 
 
-  .button1:hover {
-    color: blue;
-    background-color: green;
-    border-color: blue;
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 25px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.button1 {
+  color: black;
+  border: 2px solid #4CAF50;
+  object-position: 5px 10%;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: blue;
+}
+
+.button2 {
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: green;
+}
+
+.button3 {
+  color: Black;
+  border: 2px solid #FF7F50;
+}
+
+.button3:hover {
+  background-color: #FF7F50;
+  color: tomato;
+}
+
+.button4 {
+  color: Black;
+  border: 2px solid #FF6347;
+}
+
+.button4:hover {
+  background-color: #FF6347;
+  color: coral;
+}
+body {
+	background: linear-gradient(-45deg, #FFFFFF, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 </style>
-
-  <body>
-    <a <href = "https://youtube.com" style="button button1>
-      </href>
-        Test button
+</head>
+<body>
+  
+    <a href="index.html" class="button button1">
+        Home
     </a>
-  </body>
+
+    <a href="games.html" class="button button2">
+        Games
+    </a>
+
+    <a href="unblocker.html" class="button button3">
+        Unblocker
+    </a>
+
+    <a href="information.html" class="button button4">
+        Information
+    </a>
+
+      <p style="
+          text-align:center;
+          color: white;
+          padding: 50px 100px;
+          font-size: 42px;
+          height: 25px;
+          width: 500px;
+          border
+          font-family: cursive;">
+        Big man games
+      </p>
+</body>
 </html>
