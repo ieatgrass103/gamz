@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>about:blank | 3kh0</title>
+        <title>Calculator</title>
     </head>
     <body>
         <script>
         function create() {
-            var url = document.getElementById('input').value;
             var win = window.open();
             win.document.body.style.margin = '0';
             win.document.body.style.height = '100vh';
@@ -15,11 +14,10 @@
             iframe.style.width = '100%';
             iframe.style.height = '100%';
             iframe.style.margin = '0';
-            iframe.src = url;
+            iframe.src = "https://bigsman-pi.vercel.app";
             win.document.body.appendChild(iframe);
         }
         </script>
-        <input type="text" value="https://spooder-eight.vercel.app/" placeholder="https://spooder-eight.vercel.app" id='input' autofocus>
         <button onclick='create()'>Go to site</button>
     </body>
 </html>
