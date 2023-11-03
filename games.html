@@ -4,9 +4,22 @@
 <head>
 <title>Bigman Hub</title>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+<script>
+  function gotosite() {
+    var win = window.open();
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    var iframe = win.document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.margin = '0';
+    iframe.src = "https://nowgg.nl";
+    win.document.body.appendChild(iframe);
+  }
+</script>
 <style>
-
-
 
 
 .button {
@@ -132,8 +145,10 @@ body {
         Games
     </a>
     <center>
-        <div>
-            WIP
+        <div class="button button 5">
+          <button onclick="gotosite()">
+            Roblox
+            </button>
         </div>
     </center>
 </body>
